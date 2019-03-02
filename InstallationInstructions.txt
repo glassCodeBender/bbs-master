@@ -18,7 +18,7 @@ http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.h
 Install Intellij Idea (When you run it, make sure to install Scala package)
 
 Open the Intellij Idea Projects Directory
-~$ cd IdeaProjects/bbs 
+~$ cd IdeaProjects/bbs-master 
 
 Grab Big Brain Security Project from GitHub
 ~$ git clone 
