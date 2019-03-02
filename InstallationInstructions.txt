@@ -26,7 +26,7 @@ Install Homebrew
 ~$ /usr/bin/ruby -e "$(curl –fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 Install Scala (this allows you to run Scala from the command line, but it’s not necessary)
 ~$ brew install scala 
-
+  
 Install SBT 
 ~$ brew install sbt@1
 
