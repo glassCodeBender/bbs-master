@@ -65,6 +65,8 @@ Place Any Memory Images in the Volatility Directory also.
 
 Fill out the bbs_config.txt file to let the program know the name of the memory dump you are importing and the operating system of the memory dump. 
 
+bbs_config.txt will be located in the bbs-master directory, but it also needs to move to the volatility directory. 
+
 Run program out of the volatility directory. 
 ~$ scala bigbrainsecurity.jar
 
