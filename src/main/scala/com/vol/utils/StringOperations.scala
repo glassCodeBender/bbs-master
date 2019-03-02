@@ -5,6 +5,12 @@ package com.bbs.vol.windows
   *
   * These methods can be called as follows:
   * "hey, y'all, I'm, getting better, at programming".splitFirst(',')
+  * 
+  * splitProtect() example:
+  * val exampleStr = "Yo yo yo yo"
+  * val didntSplit = emptyStr.splitProtect(",")
+  * didntSplit is Array["Yo yo yo yo"]
+  *
   */
 
 object StringOperations {
