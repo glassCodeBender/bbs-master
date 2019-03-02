@@ -56,9 +56,17 @@ A jar file will be created called bigbrainsecurity.jar. The exact location of th
 
 Open to the directory holding bigbrainsecurity.jar (cd) and move the jar to the volatility directory. You will call the Scala program directly out of the volatility directory (where vol.py) is located.
 
-Open the volatility directory
+Inside the bbs-master directory there are a bunch of .yar and .yara files. Move (or copy) all of the .yar and .yara files to the volatility directory.
+
+Now move to the volatility directory.
 ~$ cd volatility 
-Place Any Memory Images in the Volatility Directory
+
+Place Any Memory Images in the Volatility Directory also.
+
+Fill out the bbs_config.txt file to let the program know the name of the memory dump you are importing and the operating system of the memory dump. 
+
+Run program out of the volatility directory. 
+~$ scala bigbrainsecurity.jar
 
 
 
