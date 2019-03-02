@@ -37,6 +37,10 @@ object StringOperations {
       } else arr
     } // END splitFirst()
 
+   /** 
+     * Try to split based on a value. If you cannot split at all, return an array with the value passed
+     * to splitProtect as only value in the Array.
+    */
     def splitProtect(s: String): Array[String] = {
       val stri = """""" + s + """"""
       val splitUp = str.split(stri)
