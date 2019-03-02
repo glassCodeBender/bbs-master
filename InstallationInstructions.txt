@@ -45,7 +45,7 @@ Activate Python 2 Environment
 
 Download the bbs-master source code from github www.github.com/glassCodeBender/bbs-master
 
-Open bbs-master in Intellij Idea (To make sure all the dependencies are installed.
+Open bbs-master in Intellij Idea (To make sure all the dependencies are installed).
 
 Open a terminal and cd to wherever you stored the bbs-master directory after you downloaded it.
 
@@ -61,7 +61,7 @@ Inside the bbs-master directory there are a bunch of .yar and .yara files. Move 
 Now move to the volatility directory.
 ~$ cd volatility 
 
-Place Any Memory Images in the Volatility Directory also.
+Place any memory dumps in the Volatility Directory also.
 
 Fill out the bbs_config.txt file to let the program know the name of the memory dump you are importing and the operating system of the memory dump. 
 
