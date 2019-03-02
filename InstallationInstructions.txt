@@ -52,11 +52,14 @@ Open a terminal and cd to wherever you stored the bbs-master directory after you
 Run SBT Assembly to compile the computer program
 ~$ sbt assembly
 
-A jar file will be created called bigbrainsecurity.jar. The exact location of the jar will be written to the terminal after the jar is compiled. 
+A jar file will be created called bigbrainsecurity.jar. 
+- The exact location of the jar will be written to the terminal after the jar is compiled. 
 
-Open to the directory holding bigbrainsecurity.jar (cd) and move the jar to the volatility directory. You will call the Scala program directly out of the volatility directory (where vol.py) is located.
+Open to the directory holding bigbrainsecurity.jar (cd) and move the jar to the volatility directory. 
+- You will call the Scala program directly out of the volatility directory (where vol.py) is located.
 
-Inside the bbs-master directory there are a bunch of .yar and .yara files. Move (or copy) all of the .yar and .yara files to the volatility directory.
+Inside the bbs-master directory there are a bunch of .yar and .yara files. 
+- Move (or copy) all of the .yar and .yara files to the volatility directory.
 
 Now move to the volatility directory.
 ~$ cd volatility 
