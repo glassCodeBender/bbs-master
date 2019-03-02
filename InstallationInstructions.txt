@@ -1,7 +1,5 @@
 ##Mac OS Installation Instructions
 
-NOTE: These instructions assume you don't know very much.
-OTHER NOTE: THESE ARE INCOMPLETE BECAUSE THE PROGRAM IS INCOMPLETE.
             The reason I wrote the instructions now is because I had to reinstall Mac OS.
 
 Install Anaconda (From continuum analytics)
