@@ -44,9 +44,15 @@ object StringOperations {
     } // END splitFirst()
 
    /** 
-     * Try to split based on a value. If you cannot split at all, return an array with the value passed
-     * to splitProtect as only value in the Array.
-    */
+     * Description: Try to split based on a value. If you cannot split at all, return an array with the value passed
+     * to splitProtect() as only value in the Array.
+     *
+     * splitProtect() example:
+     * val exampleStr = "Yo yo yo yo"
+     * val didntSplit = emptyStr.splitProtect(",")
+     * didntSplit is Array["Yo yo yo yo"]
+     *
+     */
     def splitProtect(s: String): Array[String] = {
       val stri = """""" + s + """"""
       val splitUp = str.split(stri)
