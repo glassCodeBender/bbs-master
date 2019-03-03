@@ -187,7 +187,7 @@ object VolatilityIDS extends FileFun {
     src.close
     */
 
-    val splitUp: Vector[Array[String]] = readConfig.map(_.split("~>"))
+    val splitUp: Vector[Array[String]] = readConfig.map(_.splitIt("~>"))
 
 
     val os = if (Try(splitUp(0)(0).trim.toLowerCase()).getOrElse("") == "profile") {
